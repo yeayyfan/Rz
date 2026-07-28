@@ -2,83 +2,246 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>关于我们 - 染舟科技（上海）有限责任公司</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们 - 染舟科技</title>
+    <meta name="description" content="了解染舟科技——由在校大学生创办的科技创新企业，专注工业智能机器人研发">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .logo {
-            white-space: nowrap;
-            font-size: 1.2rem;
-            letter-spacing: 0.5px;
-        }
-        @media (max-width: 768px) {
-            .logo {
-                white-space: normal;
-                font-size: 1rem;
-                word-break: keep-all;
-            }
-            .nav-container {
-                flex-wrap: wrap;
-            }
-            .nav-menu {
-                margin-top: 0.5rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-        }
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-    </style>
 </head>
 <body>
 
+<!-- 导航栏 -->
 <header class="header">
     <div class="container nav-container">
-        <div class="logo">染舟科技（上海）有限责任公司</div>
-
+        <a href="index.html" class="logo">
+            <img src="images/logo-en.png" alt="染舟科技">
+        </a>
         <nav>
             <ul class="nav-menu">
                 <li><a href="index.html">首页</a></li>
-                <li><a href="products.html">产品中心</a></li>
-                <li><a href="solutions.html">解决方案</a></li>
-                <li><a href="cases.html">项目案例</a></li>
                 <li><a href="about.html" class="active">关于我们</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="invest.html">融资合作</a></li>
                 <li><a href="contact.html">联系我们</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
+<!-- 页面 Banner -->
 <section class="page-banner">
     <div class="container">
         <h1>关于我们</h1>
+        <p>年轻的团队，不凡的愿景</p>
     </div>
 </section>
 
+<!-- 企业介绍 -->
 <section class="section">
     <div class="container">
-        <div class="about-box">
-            <h2>企业介绍</h2>
-            <p>
-                染舟科技（上海）有限责任公司专注于工业智能喷涂机器人研发，
-                致力于推动船舶制造业数字化与智能化升级。
-            </p>
+        <div class="about-grid">
+            <div class="about-content fade-in">
+                <span class="section-badge">公司简介</span>
+                <h2>关于染舟科技</h2>
+                <p>
+                    染舟科技是一家由在校大学生创办的科技创新企业，专注于工业智能喷涂机器人的研发与应用。
+                    我们以AI视觉与自动化控制技术为核心，致力于推动传统制造业的数字化与智能化升级。
+                </p>
+                <p>
+                    公司创始团队来自知名高校，拥有扎实的技术功底与丰富的项目经验。
+                    我们坚信，年轻的创造力与前沿技术的结合，能够为工业领域带来真正的变革。
+                </p>
+                <p>
+                    【可编辑区域】在此补充更多公司介绍内容，如成立时间、注册信息、
+                    业务范围、发展目标等。
+                </p>
+            </div>
+            <div class="about-image fade-in">
+                <div class="about-image-placeholder">
+                    <div class="placeholder-icon">🏢</div>
+                    <h3>公司形象图</h3>
+                    <p>可替换为公司logo展示、办公环境或团队合影</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- 愿景使命 -->
+<section class="section" style="background: var(--bg-light);">
+    <div class="container">
+        <div class="section-header fade-in">
+            <span class="section-badge">愿景使命</span>
+            <h2 class="section-title">我们的信念</h2>
+            <p class="section-subtitle">用技术创造价值，用创新改变行业</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-card fade-in">
+                <div class="feature-icon">🎯</div>
+                <h3>我们的使命</h3>
+                <p>
+                    以智能机器人技术赋能传统制造业，让工业生产更高效、更安全、更绿色。
+                    【可编辑】补充具体使命描述。
+                </p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">🔭</div>
+                <h3>我们的愿景</h3>
+                <p>
+                    成为工业智能机器人领域的创新领导者，推动中国制造业向智能化转型。
+                    【可编辑】补充具体愿景描述。
+                </p>
+            </div>
+            <div class="feature-card fade-in">
+                <div class="feature-icon">💎</div>
+                <h3>核心价值观</h3>
+                <p>
+                    创新、务实、协作、成长。我们相信技术的力量，更相信人的价值。
+                    【可编辑】补充具体价值观描述。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 核心团队 -->
+<section class="section team-section">
+    <div class="container">
+        <div class="section-header fade-in">
+            <span class="section-badge">核心团队</span>
+            <h2 class="section-title">创始团队</h2>
+            <p class="section-subtitle">两位怀揣梦想的在校大学生，用技术与热情开启创业之路</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card fade-in">
+                <div class="team-avatar">A</div>
+                <h3>创始人 A</h3>
+                <p class="team-role">CEO / 联合创始人</p>
+                <p class="team-bio">
+                    【可编辑区域】
+                    <br><br>
+                    • 学校 & 专业：<br>
+                    • 技术方向：<br>
+                    • 获奖/经历：<br>
+                    • 负责领域：公司战略、商务拓展、运营管理
+                    <br><br>
+                    在此填写详细的创始人简介，突出个人能力与背景优势。
+                </p>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-avatar">B</div>
+                <h3>创始人 B</h3>
+                <p class="team-role">CTO / 联合创始人</p>
+                <p class="team-bio">
+                    【可编辑区域】
+                    <br><br>
+                    • 学校 & 专业：<br>
+                    • 技术方向：<br>
+                    • 获奖/经历：<br>
+                    • 负责领域：技术研发、产品设计、算法优化
+                    <br><br>
+                    在此填写详细的联合创始人简介，突出技术深度与创新能力。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 发展历程 -->
+<section class="section" style="background: var(--bg-light);">
+    <div class="container">
+        <div class="section-header fade-in">
+            <span class="section-badge">发展历程</span>
+            <h2 class="section-title">我们的足迹</h2>
+            <p class="section-subtitle">每一步都在成长，每一天都在进步</p>
+        </div>
+        <div class="editable-placeholder fade-in">
+            <div class="placeholder-icon">📅</div>
+            <h3>发展历程时间线</h3>
             <p>
-                公司拥有工业机器人控制、AI视觉识别、
-                工业互联网平台等多项核心技术。
+                在此添加公司发展历程，如：<br>
+                • 2025年X月 - 团队组建，项目启动<br>
+                • 2025年X月 - 完成原型开发<br>
+                • 2026年X月 - 公司注册成立<br>
+                • 2026年X月 - 获得首个合作意向<br>
+                • ...
             </p>
         </div>
     </div>
 </section>
 
+<!-- 荣誉资质 -->
+<section class="section">
+    <div class="container">
+        <div class="section-header fade-in">
+            <span class="section-badge">荣誉资质</span>
+            <h2 class="section-title">我们的认可</h2>
+            <p class="section-subtitle">技术实力与创新能力的见证</p>
+        </div>
+        <div class="editable-placeholder fade-in">
+            <div class="placeholder-icon">🏆</div>
+            <h3>荣誉 & 资质</h3>
+            <p>
+                在此添加获奖经历、专利证书、资质认证等内容。<br>
+                可使用图片或文字列表形式展示。
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 加入我们 -->
+<section class="section" style="background: var(--dark-secondary); color: white;">
+    <div class="container" style="text-align: center;">
+        <div class="fade-in">
+            <h2 style="font-size: 36px; margin-bottom: 16px;">加入我们</h2>
+            <p style="font-size: 18px; color: rgba(255,255,255,0.7); margin-bottom: 32px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                如果你对机器人技术充满热情，渴望在创业团队中快速成长，欢迎加入我们！
+            </p>
+            <a href="contact.html" class="btn btn-primary">联系我们</a>
+        </div>
+    </div>
+</section>
+
+<!-- 页脚 -->
 <footer class="footer">
     <div class="container">
-        <p>© 2026 染舟科技（上海）有限责任公司</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="images/logo-text.png" alt="染舟科技">
+                </div>
+                <p>
+                    专注工业智能机器人研发，<br>
+                    用科技赋能制造业转型升级。
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>关于我们</h4>
+                <ul>
+                    <li><a href="about.html">公司介绍</a></li>
+                    <li><a href="about.html">核心团队</a></li>
+                    <li><a href="about.html">发展历程</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>产品与服务</h4>
+                <ul>
+                    <li><a href="products.html">产品中心</a></li>
+                    <li><a href="products.html">解决方案</a></li>
+                    <li><a href="products.html">应用案例</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>合作联系</h4>
+                <ul>
+                    <li><a href="invest.html">融资合作</a></li>
+                    <li><a href="contact.html">商务合作</a></li>
+                    <li><a href="contact.html">加入我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 染舟科技 | 智能工业机器人创新者</p>
+        </div>
     </div>
 </footer>
 

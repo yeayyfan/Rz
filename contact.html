@@ -4,50 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>联系我们 - 染舟科技</title>
+    <meta name="description" content="联系染舟科技，商务合作、融资咨询、加入我们">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+<!-- 导航栏 -->
 <header class="header">
     <div class="container nav-container">
-        <div class="logo">染舟科技</div>
-
+        <a href="index.html" class="logo">
+            <img src="images/logo-en.png" alt="染舟科技">
+        </a>
         <nav>
             <ul class="nav-menu">
                 <li><a href="index.html">首页</a></li>
-                <li><a href="products.html">产品中心</a></li>
-                <li><a href="solutions.html">解决方案</a></li>
-                <li><a href="cases.html">项目案例</a></li>
                 <li><a href="about.html">关于我们</a></li>
+                <li><a href="products.html">产品中心</a></li>
+                <li><a href="invest.html">融资合作</a></li>
                 <li><a href="contact.html" class="active">联系我们</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
+<!-- 页面 Banner -->
 <section class="page-banner">
     <div class="container">
         <h1>联系我们</h1>
+        <p>期待与您的每一次交流</p>
     </div>
 </section>
 
+<!-- 联系方式 -->
+<section class="section contact-section">
+    <div class="container">
+        <div class="contact-grid">
+            <!-- 联系信息 -->
+            <div class="contact-info-card fade-in">
+                <h2>联系方式</h2>
+                
+                <div class="contact-item">
+                    <div class="contact-item-icon">📧</div>
+                    <div>
+                        <h4>商务合作</h4>
+                        <p>【待补充】business@ranzhou.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">💼</div>
+                    <div>
+                        <h4>融资咨询</h4>
+                        <p>【待补充】invest@ranzhou.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📱</div>
+                    <div>
+                        <h4>联系电话</h4>
+                        <p>【待补充】13X-XXXX-XXXX</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📍</div>
+                    <div>
+                        <h4>公司地址</h4>
+                        <p>【待补充】上海市XX区XX路XX号</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">💬</div>
+                    <div>
+                        <h4>微信公众号</h4>
+                        <p>【待补充】染舟科技</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 留言表单 -->
+            <div class="contact-form-card fade-in">
+                <h2>给我们留言</h2>
+                <form onsubmit="alert('感谢您的留言，我们会尽快与您联系！'); return false;">
+                    <div class="form-group">
+                        <label for="name">您的姓名</label>
+                        <input type="text" id="name" placeholder="请输入您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱 / 电话</label>
+                        <input type="text" id="email" placeholder="请输入您的联系方式" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">咨询类型</label>
+                        <input type="text" id="subject" placeholder="如：商务合作 / 融资咨询 / 加入我们">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">留言内容</label>
+                        <textarea id="message" placeholder="请输入您想咨询的内容..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">提交留言</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 常见问题 -->
+<section class="section" style="background: var(--bg-light);">
+    <div class="container">
+        <div class="section-header fade-in">
+            <span class="section-badge">常见问题</span>
+            <h2 class="section-title">FAQ</h2>
+            <p class="section-subtitle">您可能想了解的问题</p>
+        </div>
+        <div class="editable-placeholder fade-in">
+            <div class="placeholder-icon">❓</div>
+            <h3>常见问题列表</h3>
+            <p>
+                在此添加常见问题及解答，如：<br><br>
+                <strong>Q: 公司目前规模如何？</strong><br>
+                A: 【可编辑回答】<br><br>
+                <strong>Q: 产品什么时候可以量产？</strong><br>
+                A: 【可编辑回答】<br><br>
+                <strong>Q: 是否接受实习/兼职？</strong><br>
+                A: 【可编辑回答】<br><br>
+                ...更多问题
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 加入我们 -->
 <section class="section">
     <div class="container">
-
-        <div class="contact-box">
-            <h2>商务合作</h2>
-
-            <p>电话：？？？</p>
-            <p>邮箱：？？？</p>
-            <p>地址：上海市？？？智能制造产业园</p>
+        <div class="section-header fade-in">
+            <span class="section-badge">加入我们</span>
+            <h2 class="section-title">与我们一起成长</h2>
+            <p class="section-subtitle">如果你对机器人技术充满热情，欢迎加入我们</p>
         </div>
-
+        <div class="editable-placeholder fade-in">
+            <div class="placeholder-icon">🚀</div>
+            <h3>招聘信息</h3>
+            <p>
+                在此添加招聘岗位信息，如：<br><br>
+                <strong>【实习】机器人算法工程师</strong><br>
+                职责：...  要求：...<br><br>
+                <strong>【实习】嵌入式开发工程师</strong><br>
+                职责：...  要求：...<br><br>
+                <strong>【兼职】商务拓展</strong><br>
+                职责：...  要求：...<br><br>
+                简历投递：hr@ranzhou.com
+            </p>
+        </div>
     </div>
 </section>
 
+<!-- 页脚 -->
 <footer class="footer">
     <div class="container">
-        <p>© 2026 染舟科技（上海）有限责任公司</p>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="images/logo-text.png" alt="染舟科技">
+                </div>
+                <p>
+                    专注工业智能机器人研发，<br>
+                    用科技赋能制造业转型升级。
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>关于我们</h4>
+                <ul>
+                    <li><a href="about.html">公司介绍</a></li>
+                    <li><a href="about.html">核心团队</a></li>
+                    <li><a href="about.html">发展历程</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>产品与服务</h4>
+                <ul>
+                    <li><a href="products.html">产品中心</a></li>
+                    <li><a href="products.html">解决方案</a></li>
+                    <li><a href="products.html">应用案例</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>合作联系</h4>
+                <ul>
+                    <li><a href="invest.html">融资合作</a></li>
+                    <li><a href="contact.html">商务合作</a></li>
+                    <li><a href="contact.html">加入我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 染舟科技 | 智能工业机器人创新者</p>
+        </div>
     </div>
 </footer>
 
